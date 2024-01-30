@@ -1,0 +1,16 @@
+This instance, I want to generate data for my ML natural language classification model to operate in a customer request chatbot. The purpose of the model is to classify the user's response to a leading question for them to describe their issue. 
+
+Here are some examples showing the format the data must look like:
+
+RequestType,RequestCategory,RequestSubCategory,pattern
+WASTE,MISSEDBIN,,"I noticed that my bin was not collected on the scheduled pickup day, which was Monday."
+WASTE,MISSEDBIN,,"It seems like my bin was missed during the garbage collection this week on its designated day, which is Thursday."
+WASTE,MISSEDBIN,,"I realized that my bin was not emptied on Tuesday, the day it was supposed to be collected."
+WASTE,MISSEDBIN,,"The rubbish collectors overlooked my bin during today's collection rounds, which takes place every Friday."
+
+I want the data to be generated in exclusively the same format as the above, the user input ("pattern") labelled with the request category (represented with the combination of "RequestType", "RequestCategory" & "RequestSubCategory"). 
+It is imperative that the data be generated in standard csv format where the pattern be enclosed in a single set of double quotes, and per row that the values be comma seperated (with no spaces).
+
+In order for you to generate data, please consider the following class and its provided description:
+[set_desc]
+With this, can you generate [num] more samples of the [cat] class to be included in the training set in RequestType,RequestCateory,RequestSubCategory,pattern format.

@@ -1,0 +1,8 @@
+Now, could you please read the following file and provide an overview of what it is. 
+Firstly, let me specify that the file in question is '[filename]', located at '[abspath]'. And it exists in the following file structure:
+
+[file_structure]
+
+Ok. Now could you please tell me what the file in question is. Please include, what type of file it is and what it's function is with respect to the project it exists in. Here is the contents of the file:
+
+[file_content]
